@@ -1,0 +1,322 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  background: #eef1f4;
+  font-family: Nunito, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.nav__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px outset #26425f15;
+  margin-bottom: 5rem;
+}
+
+.row__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.link,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #26425f;
+  font-size: 1rem;
+  padding: 18px 0;
+  margin-left: 1rem;
+}
+
+.intro__title {
+  margin: 0 40px 100px 0;
+  max-width: 50%;
+}
+
+.title {
+  width: 40%;
+}
+
+.intro__title h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #56677b;
+}
+
+.intro__title p {
+  font-size: 1.25rem;
+  color: #56677b;
+  margin-bottom: 4rem;
+}
+
+.btn {
+  color: #fff;
+  background: #4099de;
+  font-weight: bold;
+  letter-spacing: 0.09em;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: -0.1rem;
+  border-radius: 5px;
+}
+
+.btn--btn {
+  font-weight: bold;
+  color: #4099de;
+  font-size: 1.125rem;
+  letter-spacing: 0.09em;
+}
+
+.intro__logo {
+  margin-bottom: 15rem;
+}
+
+.comment__background {
+  background: #26425f;
+  margin-bottom: 5rem;
+}
+
+.comment--img {
+  max-width: 100%;
+  margin: -175px 0 80px;
+}
+
+.top--title,
+.top-title {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.top-title {
+  margin-bottom: 2.5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.row1 {
+  display: flex;
+}
+
+/* .items--log {
+  justify-content: ;
+} */
+.col--items {
+  max-width: 50%;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 3rem;
+}
+
+.three__col {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.items {
+  margin-top: -1.3rem;
+  margin-left: 2rem;
+}
+
+.sub--title {
+  color: #fff;
+  font-size: 1.125rem;
+  margin: 0 0 12px;
+  margin-bottom: 0.75rem;
+}
+
+.text {
+  color: #aaf1ff;
+  margin-right: 1rem;
+  font-size: 0.875rem;
+}
+
+.col {
+  margin-bottom: 3rem;
+}
+
+.item--par {
+  color: #4c5c69;
+  line-height: 1.7;
+  font-size: 0.875rem;
+}
+
+.backdrop {
+  margin-top: 4rem;
+  background-image: linear-gradient(135deg, #2891c4, #125b93);
+}
+
+.owner--logo {
+  border-radius: 100%;
+  border: 4px solid #fff;
+  width: 6rem;
+  margin: 0 45%;
+  margin-top: -3rem;
+}
+
+.comment {
+  max-width: 58%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quote {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.col--text,
+.text {
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.col--text .text {
+  color: #fff;
+  border-right: 3px solid #aaf1ff;
+  padding-right: 1.5rem;
+}
+
+.col--create {
+  padding-left: 0.5rem;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+ul {
+  list-style: none;
+}
+
+.pro-item h4 {
+  color: #4a90e2;
+  margin: 0 0 2px;
+}
+
+.pro-item {
+  padding: 32px 40px 40px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+}
+
+sup {
+  font-size: 1.875rem;
+  position: relative;
+  bottom: .6rem;
+  color: #202c3ac0;
+}
+
+span {
+  color: #202c3ad0;
+  font-size: 3.75rem;
+  /* position: relative; */
+  top: 10;
+}
+
+.span2 {
+  color: #202c3ac0;
+  font-size: 1.5rem;
+}
+
+.box--items {
+  background: #fff;
+  width: 25%;
+  margin-right: 2rem;
+  border-radius: 10px;
+  /* position: relative; */
+  margin-bottom: -15rem;
+}
+
+.register {
+  background: #f7f9fb;
+  height: 4.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.items--center {
+  color: #4099de;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.space {
+  margin: 18rem;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more a {
+  color: #4099de;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.footer p {
+  margin-bottom: 0.25rem;
+  color: #56677b;
+}
+
+.footer a {
+  color: #4099de;
+}
+
+.stick {
+  position: static;
+}
+
+.fancy {
+  bottom: 10px;
+  height: 60px;
+  line-height: 60px;
+  /* position: relative; */
+  float: right;
+  margin-right: 2rem;
+  background-color: rgb(57, 73, 86);
+  color: white;
+  cursor: pointer;
+  min-width: 60px;
+  border-radius: 100%;
+  border-style: none;
+}
